@@ -1,0 +1,325 @@
+/* general */
+
+@font-face {
+    font-family:ThickDeco;
+    src: url(ThickDeco.eot);  /* EOT for IE */
+    src: local("ThickDeco"),
+    url(ThickDeco.ttf) format("truetype"); /* non-IE */
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width: 100%;
+    background: #ffffff;
+}
+
+h3 {
+    text-align: center;
+}
+
+.box {
+    max-width: 900px;
+    margin: 30px auto 50px;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0caf00;
+}
+
+/* header, footer */
+
+#header {
+    position: relative;
+    top: 0;
+    height: 43px;
+    background: #0caf00;
+    width: 100%;
+}
+
+#footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 142px;
+    background: #0caf00;
+    float: left;
+}
+
+#header .box, #footer .box {
+    margin: 0 auto;
+}
+
+#left {
+    border-right: solid #ffffff 1px;
+}
+
+#left, #right {
+    display: block;
+    width: 44%;
+    margin: 10px 0;
+    float: left;
+    padding: 0 25px;
+}
+
+#footer li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#footer li a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer li a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer li a:hover {
+    text-decoration: none;
+    color: #202020;
+}
+
+/* page */
+
+#start {
+    margin: 5px;
+    border: double #0caf00 4px;
+    float: none;
+}
+
+#start img {
+    width: 100%;
+}
+
+#cc-emblem {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+#ka-emblem {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+#ka-emblem img {
+    height: 120px;
+    width: 100px;
+}
+
+.one {
+    float: left;
+    height: auto;
+    position: relative;
+    width: 94.5%;
+    border: double #0caf00 4px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.triple {
+    border: double #0caf00 4px;
+    margin: 5px;
+    padding: 15px;
+    width: 28%;
+    float: left;
+}
+
+.double {
+    border: double #0caf00 4px;
+    margin: 10px;
+    padding: 15px;
+    width: 44%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.double-map {
+    border: double #0caf00 4px;
+    margin: 10px;
+    width: 44%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.last {
+    margin-right: 0;
+}
+
+#wrapper {
+    float: left;
+    width: 100%;
+}
+
+.one-third {
+    width: 30%;
+    float: left;
+    margin: 2%;
+}
+
+.one-third img {
+    width: 100%;
+}
+
+.two-third {
+    width: 60%;
+    border-left: solid red 2px;
+    margin: 15px 10px;
+    float: left;
+    padding-left: 25px;
+}
+
+.blogtitle {
+    border-bottom: 1px solid #d5d5d5;
+    float: left;
+    width: 100%;
+}
+
+.blog {
+    float: left;
+    padding-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.emblem {
+    float: left;
+}
+
+.emblemtitle {
+    float: left;
+    width: 79%;
+}
+
+#contactwarning {
+    width: 90%;
+    display: none;
+    padding: 20px 0px;
+    margin: 30px auto 0px auto;
+    color: #DA620B;
+    font-weight: bold;
+}
+
+#contactajax {
+    width: 90%;
+    display: none;
+    background-image: url(../images/greenalert.png);
+    border: 1px solid #83CD52;
+    background-color: #8DE182;
+    padding: 5px 15px 5px 45px;
+    margin: 55px auto 10px auto;
+    color: #060;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 11pt;
+    background-position: 10px 12px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px #999;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.contactdetails {
+    width: 90%;
+    float: none;
+    margin: 5px auto 5px auto;
+}
+
+.contactdetails p {
+    padding: 0px 0px 13px 30px;
+    margin: 0px;
+    background-image: url(../images/orange-cross.png);
+    background-repeat: no-repeat;
+    font-size: 10pt;
+}
+
+.contacttitle {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.contacttitle h2 {
+    padding-left: 20px;
+    /*color: #da620b;*/
+    font-size: 16pt;
+}
+
+.contacttextarea {
+    width: 60%;
+    float: left;
+    padding: 10px 1% 10px 0px;
+}
+
+.contacttextarea fieldset {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+textarea.contacttextarea {
+    width: 96%;
+    padding: 2%;
+    border: 1px solid #d5d5d5;
+    min-height: 180px;
+    color: #939393;
+    font-size: 12pt;
+    font-family: 'HelveticaLTStdRoman', Arial, Helvetica, sans-serif;
+}
+
+.contacttextform {
+    width: 92%;
+    padding: 6px 4% 6px 4%;
+    border: 1px solid #d5d5d5;
+    /*color: #000000;*/
+    font-size: 12pt;
+    font-family: 'HelveticaLTStdRoman', Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+}
+
+.contactformbutton {
+    background-color: #03d400;
+    padding: 10px 22px;
+    margin-top: 15px;
+    font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    border: 0px;
+    color: white;
+}
+
+.contactformbutton:hover {
+    background-color: #cbcaca;
+}
+
+.contacttextboxes {
+    width: 36%;
+    float: right;
+    padding: 10px 1% 10px 0px;
+    color: #d5d5d5;
+}
+
+.contacttextboxes fieldset {
+    padding: 0px 0px 15px 0px;
+    margin: 0px;
+    border: 0px;
+}
