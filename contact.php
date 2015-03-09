@@ -70,6 +70,7 @@ function IsInjected($str)
         return false;
     }
 }
+
 if (!empty($errors)) {
     echo "<p class='err'>" . nl2br($errors) . "</p>";
 }
@@ -79,11 +80,16 @@ include('header.php');
 ?>
 
 <div id="wrapper">
-    <div class="box">
+    <div class="box" id="shadow">
         <div class="double">
             <div class="blogtitle"><h3>Kontaktinformationen</h3></div>
             <div class="blog">
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
         <div class="double last">
@@ -96,50 +102,50 @@ include('header.php');
         <div class="one">
             <div class="blogtitle"><h3>Schick uns eine Nachricht</h3></div>
             <div class="blog">
-                    <div id="contactwarning"></div>
-                    <div id="contactajax"></div>
-                    <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post" name="contact form"
-                          id="contact_form">
-                        <input name="contactformid" id="contactformid" type="hidden" value="1"/>
+                <div id="contactwarning"></div>
+                <div id="contactajax"></div>
+                <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post" name="contact form"
+                      id="contact_form">
+                    <input name="contactformid" id="contactformid" type="hidden" value="1"/>
 
-                        <div class="contacttextarea">
-                            <fieldset>
+                    <div class="contacttextarea">
+                        <fieldset>
                             <textarea class="contacttextarea" name="message" rows="5" cols="5" id="message"
                                       title="Deine Nachricht"
                                       onfocus="if (this.value == 'Nachricht') {this.value = '';}">Nachricht<?php echo htmlentities($user_message) ?></textarea>
-                            </fieldset>
-                        </div>
-                        <div class="contacttextboxes">
-                            <fieldset>
-                                <input name="name" id="name" type="text" title="Dein Name"
-                                       onfocus="if (this.value == 'Name') {this.value = '';}"
-                                       value="Name<?php echo htmlentities($name) ?>" class="contacttextform"/>
-                            </fieldset>
+                        </fieldset>
+                    </div>
+                    <div class="contacttextboxes">
+                        <fieldset>
+                            <input name="name" id="name" type="text" title="Dein Name"
+                                   onfocus="if (this.value == 'Name') {this.value = '';}"
+                                   value="Name<?php echo htmlentities($name) ?>" class="contacttextform"/>
+                        </fieldset>
 
-                            <fieldset>
-                                <input name="email" id="email" type="text" title="Deine Emailaddresse"
-                                       onfocus="if (this.value == 'Email') {this.value = '';}"
-                                       value="Email<?php echo htmlentities($visitor_email) ?>" class="contacttextform"/>
-                            </fieldset>
+                        <fieldset>
+                            <input name="email" id="email" type="text" title="Deine Emailaddresse"
+                                   onfocus="if (this.value == 'Email') {this.value = '';}"
+                                   value="Email<?php echo htmlentities($visitor_email) ?>" class="contacttextform"/>
+                        </fieldset>
 
-                            <img src="captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg'><br>
-                            <label for='6_letters_code' class="contacttitle">Bitte den Code eingeben
-                                !</label><br>
-                            <input id="6_letters_code" name="6_letters_code" type="text" class="contacttextform"><br>
-                            <small>Nicht lesbar? Klick <a href='javascript: refreshCaptcha();'
-                                                          style="text-decoration: none;">hier</a> zum
-                                erneuern
-                            </small>
+                        <img src="captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg'><br>
+                        <label for='6_letters_code' class="contacttitle">Bitte den Code eingeben
+                            !</label><br>
+                        <input id="6_letters_code" name="6_letters_code" type="text" class="contacttextform"><br>
+                        <small>Nicht lesbar? Klick <a href='javascript: refreshCaptcha();'
+                                                      style="text-decoration: none;">hier</a> zum
+                            erneuern
+                        </small>
 
-                            <fieldset>
-                                <input type="submit" value="Send" name="submit" id="submit" class="contactformbutton"/>
-                            </fieldset>
-                        </div>
-                    </form>
-                </div>
+                        <fieldset>
+                            <input type="submit" value="Send" name="submit" id="submit" class="contactformbutton"/>
+                        </fieldset>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+</div>
 </div>
 <script language="JavaScript">
     var frmvalidator = new Validator("contact_form");

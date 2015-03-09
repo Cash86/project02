@@ -1,16 +1,16 @@
 /* general */
 
 @font-face {
-    font-family:ThickDeco;
+    font-family: ThickDeco;
     src: url(ThickDeco.eot);  /* EOT for IE */
     src: local("ThickDeco"),
     url(ThickDeco.ttf) format("truetype"); /* non-IE */
 }
 
 html, body {
-    margin:0;
-    padding:0;
-    height:100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     width: 100%;
     background: #ffffff;
 }
@@ -21,7 +21,14 @@ h3 {
 
 .box {
     max-width: 900px;
-    margin: 30px auto 50px;
+    margin: 0 auto;
+    padding-bottom: 143px;
+}
+
+#shadow > div {
+    -webkit-box-shadow: 0px -1px 30px 10px #888888;
+    -moz-box-shadow: 0px -1px 30px 10px #888888;
+    box-shadow: 0px -1px 30px 10px #888888;
 }
 
 a:link {
@@ -49,11 +56,12 @@ a:hover {
 }
 
 #footer {
-    margin-top: 20px;
+    position: relative;
+    margin-top: -142px;
     width: 100%;
     height: 142px;
     background: #0caf00;
-    float: left;
+    clear: both;
 }
 
 #header .box, #footer .box {
@@ -97,7 +105,7 @@ a:hover {
 /* page */
 
 #start {
-    margin: 5px;
+    margin-bottom: 15px;
     border: double #0caf00 4px;
     float: none;
 }
@@ -167,6 +175,16 @@ a:hover {
 #wrapper {
     float: left;
     width: 100%;
+    min-height: 100%;
+    margin-bottom: -142px;
+}
+
+#wrapper:after {
+    content: "";
+    display: block;
+}
+#footer, #wrapper:after {
+    height: 142px;
 }
 
 .one-third {
@@ -181,7 +199,6 @@ a:hover {
 
 .two-third {
     width: 60%;
-    border-left: solid red 2px;
     margin: 15px 10px;
     float: left;
     padding-left: 25px;

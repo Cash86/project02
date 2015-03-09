@@ -1,5 +1,5 @@
 // navi-menu bar //
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('ul.sf-menu').superfish();
 });

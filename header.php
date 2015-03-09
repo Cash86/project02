@@ -1,8 +1,8 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title><?php echo "$title"?></title>
-    <meta name="description" content='<?php echo "$content"?>'/>
+    <title><?php echo "$title" ?></title>
+    <meta name="description" content='<?php echo "$content" ?>'/>
     <link type="text/css" href="css/main.css" rel="stylesheet"/>
     <link type="text/css" rel="stylesheet" href="css/superfish.css"/>
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
