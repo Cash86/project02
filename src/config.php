@@ -1,6 +1,6 @@
 <?php
 
-if ($_SERVER["SERVER_NAME"] == 'localhost') {
+if ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') {
     // local db
     define('DB_HOST', 'localhost');
     define('DB_NAME', 'vacc_db');

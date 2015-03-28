@@ -79,8 +79,9 @@ $content = 'VACC, Karlsruhe, Cimbria-Fidelitas, Cimfid, 1856, 1951, Landsmannsch
 include('header.php');
 ?>
 
-<div id="wrapper">
-    <div class="box" id="shadow">
+<div id="main">
+    <div id="wrapper">
+        <div id="shadow">
         <div class="double">
             <div class="blogtitle"><h3>Kontaktinformationen</h3></div>
             <div class="blog">
@@ -145,6 +146,7 @@ include('header.php');
             </div>
         </div>
     </div>
+        </div>
 </div>
 </div>
 <script language="JavaScript">

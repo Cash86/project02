@@ -7,8 +7,9 @@ $title = 'VACC - Karlsruhe';
 $content = 'VACC, Karlsruhe, Cimbria-Fidelitas, Cimfid, 1856, 1951, Landsmannschaft, Turnerschaft, Rhenania, Gotia-Zaringia';
 include('header.php');
 ?>
-<div id="wrapper">
-    <div class="box" id="shadow">
+<div id="main">
+    <div id="wrapper">
+        <div id="shadow">
         <div class="one">
             <?php
             echo '<div class="blogtitle"><h3>Impressum</h3></div>
@@ -79,6 +80,7 @@ include('header.php');
             </div>
         </div>
     </div>
+        </div>
 </div>
 
 <?php include('footer.php');

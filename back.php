@@ -6,8 +6,9 @@ $title = 'VACC - Karlsruhe - Veranstaltungen';
 $content = 'VACC, Karlsruhe, Cimbria-Fidelitas, Cimfid, 1856, 1951, Landsmannschaft, Turnerschaft, Rhenania, Gotia-Zaringia';
 include('header.php');
 ?>
-<div id="wrapper">
-    <div class="box" id="shadow">
+<div id="main">
+    <div id="wrapper">
+        <div id="shadow">
         <?php
         foreach ($res as $dsatz) { ?>
         <div class="one">
@@ -17,6 +18,7 @@ include('header.php');
             ?>
         </div>
     </div>
+        </div>
 </div>
 
 <?php include('footer.php');
