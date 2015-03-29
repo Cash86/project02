@@ -16,4 +16,5 @@ if ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') {
 
 // connect to db
 $dbh = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USER, DB_PW);
+$dbh->query('set character set "utf8"');
 
