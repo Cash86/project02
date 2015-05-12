@@ -149,15 +149,15 @@ a:hover {
 }
 
 #cc-emblem {
-    position: fixed;
-    left: 20%;
+    position: absolute;
+    margin-left: 50px;
     top: 10px;
 }
 
 #ka-emblem {
-    position: fixed;
-    right: 20%;
+    position: absolute;
     top: 10px;
+    margin-left: 800px;
 }
 
 #ka-emblem img {
@@ -261,6 +261,11 @@ a:hover {
 
 .emblem {
     float: left;
+}
+
+#wrap {
+    width: 925px;
+    margin:auto;
 }
 
 .emblemtitle {
