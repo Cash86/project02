@@ -22,19 +22,9 @@
         <div id="nav">
         <ul class="sf-menu">
             <li><a href="index.php">Startseite</a></li>
-            <li><a href="projects.php">Veranstaltungen</a>
-                <ul>
-                    <li><a href="back.php">Vergangene</a></li>
-                    <li><a href="future.php">Zukünftige</a></li>
-                    <li><a href="regular.php">Stammtisch</a></li>
-                </ul>
-            </li>
-            <li><a href="about.php">VACC</a>
-                <ul>
-                    <li><a href="association.php">Verbindungen</a></li>
-                    <li><a href="cc.php">CC</a></li>
-                </ul>
-            </li>
+            <li><a href="about.php">Über uns</a></li>
+            <li><a href="projects.php">Veranstaltungen</a></li>
+            <li><a href="studies.php">Studienberatung</a></li>
             <li><a href="contact.php" style="border-right: 1px solid #fff;">Kontakt</a></li>
         </ul>
         </div>

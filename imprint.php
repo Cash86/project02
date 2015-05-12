@@ -19,14 +19,15 @@ include('header.php');
                 <div class="imprint">
                 <p>' . $res2["prefix"] . ' ' . $res2["fullname"] . '<br/>' . $res2["email"] . '</p></div>';
             ?>
+            <br/><br/>
             <div class="laws">
-                <h3>Rechtliche Hinweise</h3><h4>1. Haftungsbeschränkung</h4>Die Inhalte dieser Website werden mit
+                <h3>Rechtliche Hinweise</h3><p>1. Haftungsbeschränkung</p><p>Die Inhalte dieser Website werden mit
                 größtmöglicher Sorgfalt erstellt. Der Anbieter übernimmt jedoch keine Gewähr für die Richtigkeit,
                 Vollständigkeit und Aktualität der bereitgestellten Inhalte. Die Nutzung der Inhalte der Website erfolgt
                 auf eigene Gefahr des Nutzers. Namentlich gekennzeichnete Beiträge geben die Meinung des jeweiligen
                 Autors und nicht immer die Meinung des Anbieters wieder. Mit der reinen Nutzung der Website des
-                Anbieters kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und dem Anbieter zustande.<h4>2.
-                    Externe Links</h4>Diese Website enthält Verknüpfungen zu Websites Dritter ("externe Links"). Diese
+                Anbieters kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und dem Anbieter zustande.</p><p>2.
+                    Externe Links</p><p>Diese Website enthält Verknüpfungen zu Websites Dritter ("externe Links"). Diese
                 Websites unterliegen der Haftung der jeweiligen Betreiber. Der Anbieter hat bei der erstmaligen
                 Verknüpfung der externen Links die fremden Inhalte daraufhin überprüft, ob etwaige Rechtsverstöße
                 bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße ersichtlich. Der Anbieter hat keinerlei Einfluss
@@ -34,7 +35,7 @@ include('header.php');
                 externen Links bedeutet nicht, dass sich der Anbieter die hinter dem Verweis oder Link liegenden Inhalte
                 zu Eigen macht. Eine ständige Kontrolle der externen Links ist für den Anbieter ohne konkrete Hinweise
                 auf Rechtsverstöße nicht zumutbar. Bei Kenntnis von Rechtsverstößen werden jedoch derartige externe
-                Links unverzüglich gelöscht.<h4>3. Urheber- und Leistungsschutzrechte</h4>Die auf dieser Website
+                Links unverzüglich gelöscht.</p><p>3. Urheber- und Leistungsschutzrechte</p><p>Die auf dieser Website
                 veröffentlichten Inhalte unterliegen dem deutschen Urheber- und Leistungsschutzrecht. Jede vom deutschen
                 Urheber- und Leistungsschutzrecht nicht zugelassene Verwertung bedarf der vorherigen schriftlichen
                 Zustimmung des Anbieters oder jeweiligen Rechteinhabers. Dies gilt insbesondere für Vervielfältigung,
@@ -43,7 +44,7 @@ include('header.php');
                 gekennzeichnet. Die unerlaubte Vervielfältigung oder Weitergabe einzelner Inhalte oder kompletter Seiten
                 ist nicht gestattet und strafbar. Lediglich die Herstellung von Kopien und Downloads für den
                 persönlichen, privaten und nicht kommerziellen Gebrauch ist erlaubt.<br><br>Die Darstellung dieser
-                Website in fremden Frames ist nur mit schriftlicher Erlaubnis zulässig.<h4>4. Datenschutz</h4>Durch den
+                Website in fremden Frames ist nur mit schriftlicher Erlaubnis zulässig.</p><p>4. Datenschutz</p><p>Durch den
                 Besuch der Website des Anbieters können Informationen über den Zugriff (Datum, Uhrzeit, betrachtete
                 Seite) gespeichert werden. Diese Daten gehören nicht zu den personenbezogenen Daten, sondern sind
                 anonymisiert. Sie werden ausschließlich zu statistischen Zwecken ausgewertet. Eine Weitergabe an Dritte,
@@ -68,11 +69,11 @@ include('header.php');
                 im Einzelfall Auskunft über diese Daten (Bestandsdaten) erteilen, soweit dies für Zwecke der
                 Strafverfolgung, zur Gefahrenabwehr, zur Erfüllung der gesetzlichen Aufgaben der
                 Verfassungsschutzbehörden oder des Militärischen Abschirmdienstes oder zur Durchsetzung der Rechte am
-                geistigen Eigentum erforderlich ist.<p><strong>Auskunftsrecht</strong><br>Sie haben das jederzeitige
+                geistigen Eigentum erforderlich ist.</p><p><strong>Auskunftsrecht</strong><br>Sie haben das jederzeitige
                     Recht, sich unentgeltlich und unverzüglich über die zu Ihrer Person erhobenen Daten zu erkundigen.
                     Sie haben das jederzeitige Recht, Ihre Zustimmung zur Verwendung Ihrer angegeben persönlichen Daten
                     mit Wirkung für die Zukunft zu widerrufen. Zur Auskunftserteilung wenden Sie sich bitte an den
-                    Anbieter unter den Kontaktdaten im Impressum.</p><h4>5. Besondere Nutzungsbedingungen</h4>
+                    Anbieter unter den Kontaktdaten im Impressum.</p><p>5. Besondere Nutzungsbedingungen</p>
 
                 <p>Soweit besondere Bedingungen für einzelne Nutzungen dieser Website von den vorgenannten Nummern 1.
                     bis 4. abweichen, wird an entsprechender Stelle ausdrücklich darauf hingewiesen. In diesem Falle

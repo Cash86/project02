@@ -1,7 +1,7 @@
 <?php
 
 include('src/config.php');
-$sql = 'select * from ' . DB_NAME . '.information where id < 4';
+$sql = 'select * from ' . DB_NAME . '.information where id = 8';
 $res = $dbh->query($sql);
 
 $title = 'VACC - Karlsruhe';
@@ -15,7 +15,7 @@ include('header.php');
                 <img src="img/start-img.jpg" alt=""/>
             </div>
             <?php foreach ($res as $dsatz) { ?>
-            <div class="triple">
+            <div class="one">
                 <?php include('src/box.php');
                 echo '</div>';
                 }; ?>

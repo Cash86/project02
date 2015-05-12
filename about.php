@@ -3,7 +3,7 @@
 include('src/config.php');
 $sql = 'select * from ' . DB_NAME . '.information';
 $res1 = $dbh->query($sql . ' where id="4"')->fetch(PDO::FETCH_ASSOC);
-$res2 = $dbh->query($sql . ' where id="5"')->fetch(PDO::FETCH_ASSOC);
+$res2 = $dbh->query($sql . ' where id="7"')->fetch(PDO::FETCH_ASSOC);
 $res3 = $dbh->query($sql . ' where id="6"')->fetch(PDO::FETCH_ASSOC);
 
 $title = 'VACC - Karlsruhe - Über uns';

@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Playball|Philosopher:400,700);
+
+h1, h2, h3, #title {
+    font-family: 'Playball', cursive;
+}
+p, li {
+    font-family: 'Philosopher', sans-serif;
+}
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+h1, h2 {
+    text-align: center;
+}
+.blog {
+    font-size: 1.3em;
+    font-family: 'Philosopher', sans-serif;
+}
+dl {
+    text-align: left;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    padding-left: 30px;
+}

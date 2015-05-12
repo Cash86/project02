@@ -1,8 +1,10 @@
 <?php
 
 include('src/config.php');
-$sql = 'select * from ' . DB_NAME . '.information where id < 4';
-$res = $dbh->query($sql);
+$sql = 'select * from ' . DB_NAME . '.information';
+$res1 = $dbh->query('select * from ' . DB_NAME . '.projects where id="1"')->fetch(PDO::FETCH_ASSOC);
+$res2 = $dbh->query($sql . ' where id="3"')->fetch(PDO::FETCH_ASSOC);
+$res3 = $dbh->query($sql . ' where id="2"')->fetch(PDO::FETCH_ASSOC);
 
 $title = 'VACC - Karlsruhe - Veranstaltungen';
 $content = 'VACC, Karlsruhe, Cimbria-Fidelitas, Cimfid, 1856, 1951, Landsmannschaft, Turnerschaft, Rhenania, Gotia-Zaringia';
@@ -11,14 +13,20 @@ include('header.php');
 <div id="main">
     <div id="wrapper">
         <div id="shadow">
-
-        <?php foreach ($res as $dsatz) { ?>
-        <div class="triple">
-            <?php include('src/box.php');
-            echo '</div>';
-            }; ?>
+            <div class="one">
+                <?php $dsatz = $res1;
+                include('src/box.php'); ?>
+            </div>
+            <div style="clear: both"></div>
+            <div class="double">
+                <?php $dsatz = $res2;
+                include('src/box.php'); ?>
+            </div>
+            <div class="double last">
+                <?php $dsatz = $res3;
+                include('src/box.php'); ?>
+            </div>
         </div>
-    </div>
         </div>
 </div>
 

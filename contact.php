@@ -83,25 +83,36 @@ include('header.php');
     <div id="wrapper">
         <div id="shadow">
         <div class="double">
-            <div class="blogtitle"><h3>Kontaktinformationen</h3></div>
+            <div class="blogtitle"><h1>Kontaktinformationen</h1></div>
             <div class="blog">
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <dl>
+                    <dt>Vorsitzender der VACC</dt>
+                    <dd>Herbert Verse</dd>
+                    <dd>Herrenstr. 2</dd>
+                    <dd>76133 Karlsruhe</dd>
+                    <dt>E-Mail</dt>
+                    <dd>example@mail.com</dd>
+                    <dt>Telefon</dt>
+                    <dd>123456789</dd>
+                </dl>
             </div>
         </div>
         <div class="double last">
-            <div class="blogtitle"><h3><a href="regular.php">Stammtisch</a></h3></div>
+            <div class="blogtitle"><h1><a href="regular.php">Stammtisch</a></h1></div>
             <div class="blog">
-                <img src="img/cimfid-house.jpeg" alt=""/>
+                <dl>
+                    <dt>Restaurant Name //TODO</dt>
+                    <dd>Anschrift</dd>
+                    <dt>Wann?</dt>
+                    <dd>Datum Uhrzeit</dd>
+                    <dt>Google-Maps</dt>
+                    <dd>Link</dd>
+                </dl>
             </div>
         </div>
         <div style="clear: both"></div>
         <div class="one">
-            <div class="blogtitle"><h3>Schick uns eine Nachricht</h3></div>
+            <div class="blogtitle"><h1>Schick uns eine Nachricht</h1></div>
             <div class="blog">
                 <div id="contactwarning"></div>
                 <div id="contactajax"></div>

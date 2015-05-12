@@ -1,5 +1,7 @@
 /* general */
 
+@import "fonts.css";
+
 @font-face {
     font-family: ThickDeco;
     src: url(ThickDeco.eot);  /* EOT for IE */
@@ -12,10 +14,6 @@
     margin: 0;
     padding: 0;
     vertical-align: baseline;
-}
-
-h3 {
-    text-align: center;
 }
 
 .cleardiv {
@@ -58,12 +56,12 @@ a:hover {
     position: fixed;
 
     background-color: #0caf00;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#0caf00), to(#0EE800));
-    background-image: -webkit-linear-gradient(top, #0caf00, #0EE800);
-    background-image: -moz-linear-gradient(top, #0caf00, #0EE800);
-    background-image: -ms-linear-gradient(top, #0caf00, #0EE800);
-    background-image: -o-linear-gradient(top, #0caf00, #0EE800);
-    background-image: linear-gradient(top, #0caf00, #0EE800);
+    background-image: -ms-radial-gradient(center bottom, ellipse farthest-corner, #5CCD21 0%, #21490C 100%);
+    background-image: -moz-radial-gradient(center bottom, ellipse farthest-corner, #5CCD21 0%, #21490C 100%);
+    background-image: -o-radial-gradient(center bottom, ellipse farthest-corner, #5CCD21 0%, #21490C 100%);
+    background-image: -webkit-gradient(radial, center bottom, 0, center bottom, 560, color-stop(0, #5CCD21), color-stop(1, #21490C));
+    background-image: -webkit-radial-gradient(center bottom, ellipse farthest-corner, #5CCD21 0%, #21490C 100%);
+    background-image: radial-gradient(ellipse farthest-corner at center bottom, #5CCD21 0%, #21490C 100%);
     border-bottom: 1px solid #095200;
 }
 
@@ -73,12 +71,12 @@ a:hover {
     float: left;
 
     background-color: #ba0000;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#BA0000), to(#e30000));
-    background-image: -webkit-linear-gradient(top, #BA0000, #E30000);
-    background-image: -moz-linear-gradient(top, #BA0000, #E30000);
-    background-image: -ms-linear-gradient(top, #BA0000, #E30000);
-    background-image: -o-linear-gradient(top, #BA0000, #E30000);
-    background-image: linear-gradient(top, #BA0000, #E30000);
+    background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #BA0000 0%, #660000 100%);
+    background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #BA0000 0%, #660000 100%);
+    background-image: -o-radial-gradient(center top, ellipse farthest-corner, #BA0000 0%, #660000 100%);
+    background-image: -webkit-gradient(radial, center top, 0, center top, 560, color-stop(0, #BA0000), color-stop(1, #660000));
+    background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #BA0000 0%, #660000 100%);
+    background-image: radial-gradient(ellipse farthest-corner at center top, #BA0000 0%, #660000 100%);
     border-top: 1px solid #6c0000;
 }
 
@@ -119,7 +117,6 @@ a:hover {
 /* title */
 
 #title {
-    font-family: Helvetica;
     font-size: 3em;
     margin: 0 auto;
     text-align: center;
@@ -130,7 +127,7 @@ a:hover {
 
 #nav {
     margin: 0 auto;
-    width: 454px;
+    width: 580px;
 }
 
 /* page */
@@ -142,7 +139,8 @@ a:hover {
 
 #start {
     /*margin-bottom: 15px;*/
-    border: double #0caf00 4px;
+    /*border: double #0caf00 4px;*/
+    border: outset grey 4px;
     float: none;
 }
 
@@ -167,17 +165,27 @@ a:hover {
 }
 
 .one {
+    background: #fafafa;
     float: left;
     height: auto;
     position: relative;
     width: 94.5%;
-    border: double #0caf00 4px;
+    -webkit-box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    border: solid 2px lightgray;
+    /*border: double #0caf00 4px;*/
     margin: 10px;
     padding: 15px;
 }
 
 .triple {
-    border: double #0caf00 4px;
+    background: #fafafa;
+    -webkit-box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    border: solid 2px lightgray;
+    /*border: double #0caf00 4px;*/
     margin: 5px;
     padding: 15px;
     width: 28%;
@@ -185,7 +193,12 @@ a:hover {
 }
 
 .double {
-    border: double #0caf00 4px;
+    background: #fafafa;
+    -webkit-box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 5px 10px 15px 5px rgba(0,0,0,0.75);
+    border: solid 2px lightgray;
+    /*border: double #0caf00 4px;*/
     margin: 10px;
     padding: 15px;
     width: 44%;
@@ -195,7 +208,7 @@ a:hover {
 }
 
 .double-map {
-    border: double #0caf00 4px;
+    /*border: double #0caf00 4px;*/
     margin: 10px;
     width: 44%;
     float: left;
@@ -238,7 +251,7 @@ a:hover {
 .blog {
     float: left;
     padding-top: 10px;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
