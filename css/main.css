@@ -255,6 +255,10 @@ a:hover {
     width: 100%;
 }
 
+.blog li {
+    list-style: none;
+}
+
 .emblem {
     float: left;
 }
