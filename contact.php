@@ -88,12 +88,14 @@ include('header.php');
                 <dl>
                     <dt>Vorsitzender der VACC</dt>
                     <dd>Herbert Verse</dd>
-                    <dd>Herrenstr. 2</dd>
+                    <dd>Herrenstr. 26</dd>
                     <dd>76133 Karlsruhe</dd>
                     <dt>E-Mail</dt>
-                    <dd>example@mail.com</dd>
+                    <dd>vacc-karlsruhe@gmx.de</dd>
                     <dt>Telefon</dt>
-                    <dd>123456789</dd>
+                    <dd>0721 – 959 759 50</dd>
+                    <dt>Fax</dt>
+                    <dd>0721 – 959 759 52</dd>
                 </dl>
             </div>
         </div>
@@ -101,12 +103,13 @@ include('header.php');
             <div class="blogtitle"><h1><a href="regular.php">Stammtisch</a></h1></div>
             <div class="blog">
                 <dl>
-                    <dt>Restaurant Name //TODO</dt>
-                    <dd>Anschrift</dd>
+                    <dt>Restaurant <a href="http://www.kleiner-ketterer.de/kk/index.php" style="color: darkgoldenrod">„Zum kleinen Ketterer“</a></dt>
+                    <dd>Adlerstr. 34  (am Lidellplatz)</dd>
+                    <dd>76133 Karlsruhe</dd>
                     <dt>Wann?</dt>
-                    <dd>Datum Uhrzeit</dd>
-                    <dt>Google-Maps</dt>
-                    <dd>Link</dd>
+                    <dd>jeder 3. Montag im Monat ab 18 Uhr</dd>
+                    <br/><br/>
+                    <dt><a href="regular.php">Weitere Informationen und Karte</a></dt>
                 </dl>
             </div>
         </div>
